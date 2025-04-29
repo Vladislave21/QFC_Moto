@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Playfair+Display:wght@700&family=Raleway&family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: $font-main;
+    background-color: $dark;
+    color: $white;
+    font-size: 16px;
+}
+
+
+a {
+    color: $white;
+    transition: color 0.1s ease-in;
+
+    &:hover {
+        color: $accent;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1600px;
+
+    &--sm {
+        max-width: 1240px;
+    }
+}
+
+.text-right {
+    text-align: right;
+}
+
+.visually-hidden {
+   text-align: center;
+   margin-top: 50px;
+   font-size: 48px;
+   font-family: $font-rewiew;
+   font-weight: 600;
+}
+
+.none {
+    display: none !important;
+}
+
+.title-2 {
+    font-size: 48px;
+    font-family: $font-accent;
+    color: &accent;
+    font-weight: 700;
+}
+
+.title_price {
+    font-size: 48px;
+    font-family: $font-accent;
+    font-weight: 600;
+}
+
+.email_li {
+    font-weight: 600;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
